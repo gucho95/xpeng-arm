@@ -1,0 +1,35 @@
+.header {
+  @apply items-center flex pl-10 pr-4 max-h-[44px] border-b-gray-50 border-[0.5px] sticky top-0 bg-white;
+}
+
+.navigationBlock {
+  @apply flex-1;
+}
+
+.navigationMenu {
+  @apply flex justify-end;
+}
+
+.navigationMenuItem {
+  @apply px-2 hover:bg-gray-100 transition-colors ease-in-out relative;
+}
+
+.navigationSubMenuWrapper {
+  @apply fixed left-0 w-full bg-white;
+}
+
+.navigationSubMenu {
+  @apply py-4 pl-[30%];
+}
+
+.navigationSubMenuItem {
+  @apply hover:underline cursor-pointer;
+}
+
+.navigationMenuItemContent {
+  @apply py-2 block;
+}
+
+.actionsBlock {
+  @apply flex-1 justify-end flex space-x-3;
+}

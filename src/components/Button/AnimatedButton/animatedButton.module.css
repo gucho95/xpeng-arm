@@ -1,0 +1,19 @@
+/* base animated button styles */
+.animatedButton {
+  @apply before:absolute before:overflow-hidden before:left-0  before:top-0 before:w-0 before:content-['_'] before:h-full before:-z-[1] overflow-hidden relative before:transition-all before:duration-500 duration-500 transition-all  before:rounded-lg before:opacity-0 hover:before:w-full hover:before:opacity-100 z-[1] ease-in-out before:ease-in-out;
+}
+
+.whiteToBlack {
+  @apply bg-white border-black px-3 rounded-xl border-solid border hover:text-white before:bg-black;
+}
+
+.blackToWhite {
+  @apply bg-black border-black px-3 rounded-xl border-solid border hover:text-black before:bg-white text-white;
+}
+
+.blackToGreen {
+  @apply bg-black border-none px-3 rounded-xl  before:bg-[#a4ce4c] text-white;
+}
+
+.custom {
+}
